@@ -6,7 +6,7 @@ namespace Tyuiu.StrekalovRA.Sprint1.Task5.V5.Lib
     {
         public int Calculate(double x)
         {
-            int K = Convert.ToInt16((x * 10) % 10);
+            int K = (int)((x * 10) % 10);
             return K;
         }
     }
